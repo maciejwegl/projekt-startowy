@@ -32,16 +32,17 @@ body {
     width: 100%;
     min-height: 20%;
     max-height: min-content;
-    background-color: #051937;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-color: #0d274f;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     color:whitesmoke;
     word-break: break-all;
     text-align: right;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-right: 5px;
+    padding-right: 10px;
     font-weight: bold;
+    border-radius: 10px;
 
 }
 
@@ -66,16 +67,17 @@ body {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
     gap: 2px;
+    border-radius: 10px;
 }
 
 .panel button {
     font-size: 25px;
-    background-color:#051937;
+    background-color: rgb(2,0,36, 0.4);
     color: whitesmoke;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     cursor: pointer;
     margin: 2px;
-    border: none;
+    border-radius: 10px;
     text-align: center;
     transition: all .2s ease-in-out;
 }
@@ -92,13 +94,25 @@ button:hover {
 .calculator-history {
     height: 60vh;
     width: 150px;
-    margin: 20px;
-    background-color:#224b8a;
+    margin-left: 20px;
+    padding: 10px 5px;
+    background-color: rgb(2,0,36, 0.6);
     color: whitesmoke;
-    padding: 5px 10px;
     font-weight: bold;
     text-align: center;
+    border-radius: 10px;
+}
 
+.history-btn {
 
-
+    background-color: rgb(2,0,36, 0.3);
+    color: whitesmoke;
+    margin: 8px;
+    padding: 6px;
+    font-size: 13px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    
 }
