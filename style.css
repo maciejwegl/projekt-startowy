@@ -29,7 +29,31 @@ body {
 
 .display {
     width: 100%;
-    min-height: 20vh;
+    min-height: 20%;
     background-color: #051937;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    color:whitesmoke;
+    word-break: break-all;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.panel {
+    color:whitesmoke;
+    background-color: #004d7a;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 2px;
+}
+
+.panel button {
+    font-size: 25px;
+    background-color:#051937;
+    color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
